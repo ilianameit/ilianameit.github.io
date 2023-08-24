@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de4c629c.css",
+    "main.js": "/static/js/main.6026866e.js",
+    "static/media/ellipse-bot.png": "/static/media/ellipse-bot.859801930323e726b0e3.png",
+    "static/media/ellipse-top.png": "/static/media/ellipse-top.91d960b210559d4f6b0f.png",
+    "static/media/blur-violet.png": "/static/media/blur-violet.9bf4dace69d6b1db0067.png",
+    "static/media/ellipse-modal.png": "/static/media/ellipse-modal.96677c170502dea68233.png",
+    "static/media/GTWalsheimPro-Medium.ttf": "/static/media/GTWalsheimPro-Medium.bc56cfc10feb515d6622.ttf",
+    "static/media/smile-star.png": "/static/media/smile-star.914370deb653e2dec739.png",
+    "static/media/smile-dollar.png": "/static/media/smile-dollar.ffdc74422cfc643e9008.png",
+    "static/media/smile-wink.png": "/static/media/smile-wink.49c8102821c8147e8640.png",
+    "static/media/smile-cool.png": "/static/media/smile-cool.b5cfa3ef40601e5741e4.png",
+    "static/media/ellipse-violet-blur.svg": "/static/media/ellipse-violet-blur.6790a109a06afa6ff0a3.svg",
+    "static/media/ellipse-green.svg": "/static/media/ellipse-green.71c0559dd495e520291a.svg",
+    "static/media/ellipse-violet.svg": "/static/media/ellipse-violet.7400fc05d5bb20c7b180.svg",
+    "static/media/ellipse-blue.svg": "/static/media/ellipse-blue.c0d4fb98ebce5e702fb7.svg",
+    "index.html": "/index.html",
+    "main.de4c629c.css.map": "/static/css/main.de4c629c.css.map",
+    "main.6026866e.js.map": "/static/js/main.6026866e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4c629c.css",
+    "static/js/main.6026866e.js"
+  ]
+}
