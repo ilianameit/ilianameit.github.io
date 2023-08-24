@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT-test</title>
+
+  <link href="../styles/normalize.css" rel="stylesheet" />
+  <link href="../styles/style.css" rel="stylesheet" />
+</head>
+<body>
+  <section class="main-block">
+    <header class="container header">
+      <img class='header__logo' src="../img/logo.png" alt="logo">
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Что даст обучение</a></li>
+        </ul>
+      </nav>
+      <button class='header_button' type="button">Личный кабинет</button>
+      <div class="menu-button">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main class="container main">
+        <h1 class="hidden">NFT</h1>
+        <h2 class="main__header">Не упусти возможность войти в <strong class="key-word">прибыльную нишу</strong></h2>
+        <img class='main__man'src="../img/man.png" alt=""> 
+        <p>Получи все нужные навыки для заработка <br>на&nbsp;NFT всего за&nbsp;28&nbsp;дней!</p>
+        <button class='main__button' type="button">Начать зарабатывать на NFT</button>
+    </main>
+  </section>
+  <section>
+    <section class="container container__cards">
+      <h2 class="cards__header">Что даст тебе обучение?</h2>
+      <ul class="cards__list">
+        <li>
+          <div class="smile-img_block smile__star"><img class='smile-img' src="../img/smile-star.png" alt="smile-star"></div>
+          <p>Откроешь свой первый криптокошелек и научишься с ним работать</p>
+        </li>
+        <li>
+          <div class="smile-img_block smile__wink"><img class='smile-img' src="../img/smile-wink.png" alt="smile-wink"></div>
+          <p>Поймёшь, как выбирать правильные дропы</p>
+        </li>
+        <li>
+          <div class="smile-img_block smile__dollar"><img class='smile-img' src="../img/smile-dollar.png" alt="smile-dollar"></div>
+          <p>Построишь план по быстрому приумножению заработанных средств</p>
+        </li>
+        <li>
+          <div class="smile-img_block smile__cool"><img class='smile-img' src="../img/smile-cool.png" alt="smile-cool"></div>
+          <p>Узнаешь кто такие холдеры и флипперы</p>
+        </li>
+
+      </ul>
+    </section>
+  </section>
+
+  <div id="modal_order" class="modal">
+    <div class="modal-content">
+      <svg class='close' xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+        <path d="M25.1439 22.5L33.2064 14.4562C33.5594 14.1032 33.7578 13.6243 33.7578 13.125C33.7578 12.6257 33.5594 12.1468 33.2064 11.7937C32.8533 11.4407 32.3744 11.2423 31.8751 11.2423C31.3758 11.2423 30.897 11.4407 30.5439 11.7937L22.5001 19.8562L14.4564 11.7937C14.1033 11.4407 13.6244 11.2423 13.1251 11.2423C12.6258 11.2423 12.1469 11.4407 11.7939 11.7937C11.4408 12.1468 11.2425 12.6257 11.2425 13.125C11.2425 13.6243 11.4408 14.1032 11.7939 14.4562L19.8564 22.5L11.7939 30.5437C11.6181 30.718 11.4787 30.9254 11.3835 31.1539C11.2883 31.3824 11.2393 31.6275 11.2393 31.875C11.2393 32.1225 11.2883 32.3676 11.3835 32.5961C11.4787 32.8245 11.6181 33.0319 11.7939 33.2062C11.9682 33.382 12.1756 33.5215 12.404 33.6167C12.6325 33.7118 12.8776 33.7609 13.1251 33.7609C13.3727 33.7609 13.6177 33.7118 13.8462 33.6167C14.0747 33.5215 14.2821 33.382 14.4564 33.2062L22.5001 25.1437L30.5439 33.2062C30.7182 33.382 30.9256 33.5215 31.154 33.6167C31.3825 33.7118 31.6276 33.7609 31.8751 33.7609C32.1227 33.7609 32.3677 33.7118 32.5962 33.6167C32.8247 33.5215 33.0321 33.382 33.2064 33.2062C33.3821 33.0319 33.5216 32.8245 33.6168 32.5961C33.712 32.3676 33.761 32.1225 33.761 31.875C33.761 31.6275 33.712 31.3824 33.6168 31.1539C33.5216 30.9254 33.3821 30.718 33.2064 30.5437L25.1439 22.5Z" fill="white"/>
+        </svg>
+      <h3 class="modal__header">Начни прямо сейчас!</h3>
+      <p class="modal__text">Получи все нужные навыки для заработка на NFT всего за 28 дней!</p>
+      <form class='form' action="">
+        <input type="email" name="email"  placeholder="Ваш e-mail" required>
+        <button class='button' type="submit">Оплатить</button>
+      </form>
+    </div>
+  
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
